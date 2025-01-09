@@ -1,14 +1,15 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",               // Ensure compiled JS goes to dist
-    "declaration": true,              // Enable type declarations
-    "declarationDir": "./dist/types", // Type declaration output directory
+    "outDir": "./dist",
+    "declaration": true,              // Generate .d.ts files
+    "declarationDir": "./dist/types", // Optional: Output for declarations
     "module": "ESNext",
-    "target": "ES6",
+    "target": "ES5",
     "jsx": "react",
-    "moduleResolution": "node",
+    "strict": true,
     "esModuleInterop": true,
-    "strict": true
+    "moduleResolution": "node",
+    "skipLibCheck": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]

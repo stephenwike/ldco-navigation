@@ -1,6 +1,6 @@
 {
   "name": "ldco-navigation",
-  "version": "0.0.1",
+  "version": "1.0.8",
   "description": "A shared navigation component for ldco website",
   "type": "module",
   "license": "MIT",
@@ -22,10 +22,10 @@
     "tslib": "^2.8.1",
     "typescript": "^5.7.3"
   },
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/types/index.d.ts"
 }
